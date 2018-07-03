@@ -1,8 +1,11 @@
 
 
+#My first pyhton code ever, riddle machine.
 print('Hello! \nWelcome to the Reddler! \nRiddle #1')
 answer = '123'
 score = 0
+
+
 #Riddle numer 1
 answer = input('What language are we going to learn? ')
 if answer == 'Python':
@@ -25,5 +28,6 @@ if answer == '-':
 	print('Good job!')
 	score += 1
 print('So far you smashed ', score, 'mysteries \n8 more to come')
+#unfinished
 
 
