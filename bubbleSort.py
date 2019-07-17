@@ -18,8 +18,11 @@ def bubbleSort(array):
                 
                 
 sampleArray = [67, 24, 88, 35, 27, 99, 119, 245, 11]
-   
+
+# Execude the method
 bubbleSort(sampleArray)
+
+# Print results
 print ("Sorted array:")
 for i in range(len(sampleArray)):
     print ("%d" %sampleArray[i])
